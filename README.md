@@ -71,3 +71,13 @@ El formateo se verifica con Laravel Pint:
     ./vendor/bin/pint --test
 
 Los comentarios se usan solo para explicar reglas de negocio o decisiones, no para repetir lo que hace el código.
+
+## Uso de inteligencia artificial
+
+Se utilizó Claude (Anthropic) como apoyo para guiar el desarrollo paso a paso, resolver dudas
+sobre Laravel y Postman, y redactar la documentación. El código fue revisado y probado
+por los autores.
+
+## Autores
+
+- Yesid Steeven Cocunubo Forero
