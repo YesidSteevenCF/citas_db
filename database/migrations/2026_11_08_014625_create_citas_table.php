@@ -25,11 +25,11 @@ return new class extends Migration
             $table->enum('estado', [
                 'pendiente',
                 'confirmada',
-                'cancelada'
+                'cancelada',
             ])->default('pendiente');
 
             $table->timestamps();
-            });
+        });
     }
 
     /**

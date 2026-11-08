@@ -14,11 +14,11 @@ class UpdateCitaRequest extends FormRequest
     public function rules(): array
     {
         return [
-        'paciente_id' => ['sometimes', 'exists:pacientes,id'],
-        'fecha' => ['sometimes', 'date', 'after_or_equal:today'],
-        'hora' => ['sometimes', 'date_format:H:i'],
-        'motivo' => ['sometimes', 'string', 'max:255'],
-        'estado' => ['sometimes', 'in:pendiente,confirmada,cancelada'],
+            'paciente_id' => ['sometimes', 'exists:pacientes,id'],
+            'fecha' => ['sometimes', 'date', 'after_or_equal:today'],
+            'hora' => ['sometimes', 'date_format:H:i'],
+            'motivo' => ['sometimes', 'string', 'max:255'],
+            'estado' => ['sometimes', 'in:pendiente,confirmada,cancelada'],
         ];
     }
 }
